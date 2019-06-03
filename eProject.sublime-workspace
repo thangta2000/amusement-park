@@ -1,0 +1,929 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ti",
+				"ticket-number"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"margin-",
+				"margin-top\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"pac",
+				"packetTime"
+			],
+			[
+				"co",
+				"countTime"
+			],
+			[
+				"pa",
+				"packetTime"
+			],
+			[
+				"a",
+				"await"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"ove",
+				"overflow-wrap\tproperty"
+			],
+			[
+				"wrap",
+				"word-wrap\tproperty"
+			],
+			[
+				"inli",
+				"inline\tdisplay"
+			],
+			[
+				"ov",
+				"overflow-wrap\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"pack",
+				"packetStatus"
+			],
+			[
+				"wa",
+				"wait"
+			],
+			[
+				"res",
+				"resolve"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"wra",
+				"word-wrap\tproperty"
+			],
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"p",
+				"packetIndex"
+			],
+			[
+				"packe",
+				"packetTime"
+			],
+			[
+				"tim",
+				"timeOut"
+			],
+			[
+				"packet",
+				"packetList"
+			],
+			[
+				"do",
+				"downloadedAmount"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"packetS",
+				"packetStatus"
+			],
+			[
+				"sat",
+				"startTime"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"sta",
+				"startTime"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"bac",
+				"background-attachment\tproperty"
+			],
+			[
+				"dow",
+				"downloadSimulator"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"text",
+				"text-decoration-style\tproperty"
+			],
+			[
+				"te",
+				"text-center"
+			],
+			[
+				"conta",
+				"container-fluid"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"flex",
+				"flex-shrink\tproperty"
+			],
+			[
+				"fl",
+				"flex-end\tjustify-content"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"wr",
+				"word-wrap\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"b",
+				"border-radius\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"backgrou",
+				"background-color\tproperty"
+			],
+			[
+				"ban",
+				"banner-container"
+			],
+			[
+				"border",
+				"border-spacing\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"paddi",
+				"padding-right\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"amusement",
+				"amusement-item"
+			],
+			[
+				"carousel",
+				"carousel-indicator-item-1"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"bora",
+				"border-top-right-radius\tproperty"
+			],
+			[
+				"bl",
+				"block\tdisplay"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"fi",
+				"figure\tTag"
+			],
+			[
+				"ma",
+				"margin-bottom\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"f",
+				"footer"
+			],
+			[
+				"fo",
+				"form-control"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"lis",
+				"list-style\tproperty"
+			],
+			[
+				"backgroun",
+				"background-image\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"col",
+				"col-lg-4"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"fot",
+				"footer\tTag"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"Reac",
+				"ReactDOM"
+			],
+			[
+				"pro",
+				"props"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"bol",
+				"bolder\tfont-weight"
+			],
+			[
+				"inl",
+				"inline\tdisplay"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"mari",
+				"margin-left\tproperty"
+			],
+			[
+				"dropdown",
+				"dropdown-menu-one"
+			],
+			[
+				"nav",
+				"nav-item"
+			],
+			[
+				"drop",
+				"dropdown-item"
+			],
+			[
+				"dro",
+				"dropdown-toggle"
+			],
+			[
+				"navbar",
+				"navbar-dropdown"
+			],
+			[
+				"hea",
+				"header-bottom"
+			],
+			[
+				"I",
+				"important"
+			],
+			[
+				"MAX",
+				"max-height\tproperty"
+			],
+			[
+				"dr",
+				"dropdown-item"
+			],
+			[
+				"li",
+				"list-group"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"session_d",
+				"session_destroy"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"mysqli_",
+				"mysqli_query"
+			],
+			[
+				"mysqi_e",
+				"mysqli_escape_string"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"da",
+				"databasePassword"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"mark",
+				"mark-max"
+			],
+			[
+				"m",
+				"month"
+			],
+			[
+				"mk",
+				"mktime"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"get",
+				"getworks"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"cont",
+				"container-fluid"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"border-",
+				"border-left\tproperty"
+			],
+			[
+				"background",
+				"background-position\tproperty"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
+				"contai",
+				"container"
+			],
+			[
+				"border-lef",
+				"border-left-color\tproperty"
+			],
+			[
+				"border-le",
+				"border-left-color\tproperty"
+			],
+			[
+				"bt",
+				"btn-success"
+			],
+			[
+				"spac",
+				"word-spacing\tproperty"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"col-xl",
+				"col-xl-8"
+			],
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"r",
+				"row"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/mywebsite.com/public/js/main.js",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/index.js",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/css/main.css",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/index.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/amusement.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/footer.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/header.html",
+		"/E/mywebsite.com/public/js/functions.js",
+		"/E/mywebsite.com/public/js/ticket.js",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/ticket.css",
+		"/E/Sublime Text Build 3176 x64 (3176)/CutPsd/index.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/CutPsd/css/style.css",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/amusement-item.html",
+		"/E/mywebsite.com/app/view/footer.phtml",
+		"/E/mywebsite.com/public/js/search.js",
+		"/E/mywebsite.com/app/view/header.phtml",
+		"/E/Sublime Text Build 3176 x64 (3176)/demo.js",
+		"/E/Sublime Text Build 3176 x64 (3176)/test.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/speedTest.js",
+		"/E/mywebsite.com/public/js/carousel-detail.js",
+		"/E/mywebsite.com/public/js/carousel.js",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/header-loged.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/css/home.css",
+		"/E/Sublime Text Build 3176 x64 (3176)/style.css",
+		"/E/New folder/New folder/main.css",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/index.text",
+		"/E/nam/eproject/css/style.css",
+		"/E/nam/eproject/index.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/contact.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/restaurant-item.html",
+		"/E/New folder/New folder/index.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/restaurants.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/trash.css",
+		"/E/Sublime Text Build 3176 x64 (3176)/bt/index.js",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/about.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/script.js",
+		"/E/Sublime Text Build 3176 x64 (3176)/to-do-list.js",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/restaurant.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/animation.css",
+		"/E/project layout-20190425T134221Z-001/project layout/project/css/style.css",
+		"/E/project layout-20190425T134221Z-001/project layout/project/index.html",
+		"/E/umeet/index.html",
+		"/E/ImageSlider(2)(Jquery)-20190423T125504Z-001/ImageSlider(2)(Jquery)/public_html/style.css",
+		"/E/ImageSlider(2)(Jquery)-20190423T125504Z-001/ImageSlider(2)(Jquery)/public_html/index.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/ticket.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/css/index.css",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/css/about.css",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/css/contact.css",
+		"/E/umeet/scss/modules/_banner.scss",
+		"/E/umeet/about.html",
+		"/E/umeet/blog.html",
+		"/E/umeet/css/style.css",
+		"/E/umeet/js/main.js",
+		"/E/umeet/css/style.map",
+		"/E/Sublime Text Build 3176 x64 (3176)/prepare_project/styles.css",
+		"/E/Sublime Text Build 3176 x64 (3176)/prepare_project/index.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/prepare_project/index.js",
+		"/E/DailyShop Free Website Template - Free-CSS.com/MarkUps-dailyShop/dailyShop/index.html",
+		"/E/Sublime Text Build 3176 x64 (3176)/eProject/styles.css",
+		"/E/Sublime Text Build 3176 x64 (3176)/bt/styles.css",
+		"/E/Sublime Text Build 3176 x64 (3176)/bt/index.html",
+		"/E/react-app/src/index.css",
+		"/E/react-app/src/index.js",
+		"/E/react-app/src/index.html",
+		"/E/DailyShop Free Website Template - Free-CSS.com/MarkUps-dailyShop/dailyShop/css/style.css",
+		"/E/node.js/npx",
+		"/E/DailyShop Free Website Template - Free-CSS.com/MarkUps-dailyShop/dailyShop/js/sequence.js",
+		"/E/DailyShop Free Website Template - Free-CSS.com/MarkUps-dailyShop/dailyShop/js/custom.js",
+		"/E/Sublime Text Build 3176 x64/prepare_project/index.html",
+		"/E/Sublime Text Build 3176 x64/prepare_project/styles.css",
+		"/E/Sublime Text Build 3176 x64/bt/styles.css",
+		"/C/xampp/htdocs/aptech/bt.php",
+		"/C/xampp/htdocs/aptech/facebook/register.php",
+		"/C/xampp/htdocs/aptech/facebook/login.php",
+		"/E/php/Exam/database.php",
+		"/E/php/Exam/index.php",
+		"/E/php/Exam/login.php",
+		"/E/php/Exam/reset.php",
+		"/E/php/AptechPHP/bai06-de2/login_user.php",
+		"/E/php/Exam/welcome.php",
+		"/E/php/AptechPHP/bai06-de2/welcome.php",
+		"/E/php/AptechPHP/bai06-de2/database.sql",
+		"/E/php/AptechPHP/bai06-de2/register_user.php",
+		"/E/php/AptechPHP/bai04/includes/register.inc.php",
+		"/E/php/Exam/change_pw.php",
+		"/E/php/AptechPHP/bai04/includes/login.inc.php",
+		"/E/php/AptechPHP/bai04/login.php",
+		"/E/php/AptechPHP/bai04/index.php",
+		"/E/php/AptechPHP/bai04/database/database.inc.php",
+		"/C/xampp/htdocs/AptechPHP/bai04/includes/login.inc.php",
+		"/E/Sublime Text Build 3176 x64/bt/index.js",
+		"/E/php/AptechPHP/Exercise01/index.php",
+		"/E/php/AptechPHP/Exercise01/employeeDetail.html",
+		"/E/php/AptechPHP/Exercise01/employeeDetail.php",
+		"/C/xampp/htdocs/AptechPHP/bai04/login.php",
+		"/C/xampp/htdocs/aptech/facebook/database.php",
+		"/C/xampp/htdocs/aptech/fb.js",
+		"/C/xampp/htdocs/aptech/bt.html",
+		"/C/xampp/htdocs/AptechPHP/bai04/includes/register.inc.php",
+		"/C/xampp/htdocs/AptechPHP/bai04/index.php",
+		"/C/xampp/htdocs/AptechPHP/bai04/database/register.php",
+		"/C/xampp/htdocs/AptechPHP/bai04/database/controllers.inc.php",
+		"/C/xampp/htdocs/AptechPHP/bai04/database/database.inc.php",
+		"/C/xampp/htdocs/AptechPHP/Exercise03/inputDay.html",
+		"/C/xampp/htdocs/AptechPHP/Exercise03/inputDay.php",
+		"/C/xampp/htdocs/AptechPHP/Exercise01/employeeDetail.html",
+		"/C/xampp/htdocs/AptechPHP/Exercise01/employeeDetail.php",
+		"/C/xampp/htdocs/AptechPHP/Exercise01/calculation.php",
+		"/C/xampp/htdocs/AptechPHP/Exercise02/index.php",
+		"/C/xampp/htdocs/AptechPHP/index.php",
+		"/C/xampp/htdocs/AptechPHP/Exercise01/index.php",
+		"/E/Sublime Text Build 3176 x64/employeeDetail.html",
+		"/C/Users/tkang_85a/Documents/employeeDetail.php",
+		"/E/Sublime Text Build 3176 x64/to-do-list.html",
+		"/E/Sublime Text Build 3176 x64/to-do-list.js",
+		"/E/Sublime Text Build 3176 x64/employeeDetail.php",
+		"/E/Sublime Text Build 3176 x64/bt/index.html",
+		"/E/Sublime Text Build 3176 x64/delicious/style.css",
+		"/E/Sublime Text Build 3176 x64/delicious/index.html",
+		"/E/Sublime Text Build 3176 x64/BootstrapExample3-BootstrapPage/index.html",
+		"/E/Sublime Text Build 3176 x64/BootstrapExample/jquery/index.js",
+		"/E/Sublime Text Build 3176 x64/BootstrapExample/css/style.css",
+		"/E/Sublime Text Build 3176 x64/BootstrapExample/index.html",
+		"/E/Sublime Text Build 3176 x64/__MACOSX/BootstrapExample/jquery/._index.js",
+		"/E/Sublime Text Build 3176 x64/__MACOSX/BootstrapExample/._index.html",
+		"/E/Sublime Text Build 3176 x64/demo.html",
+		"/E/Sublime Text Build 3176 x64/BootstrapExample3-BootstrapPage/css/style.css",
+		"/E/Sublime Text Build 3176 x64/my2ndwork/BaiMoi/hotel.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"remove",
+			"border",
+			"about",
+			"<button class=\"btn\" class=\"add-ticket\">ADD TO MY VISIT</button>",
+			"add-ticket",
+			"<button class=\"btn\" id=\"add-ticket\">ADD TO MY VISIT</button>",
+			"<button class=\"btn\">ADD TO MY VISIT</button>",
+			"<button class=\"btn\" id=\"add-ticket\">ADD TO MY VISIT</button>",
+			".btn",
+			"packetAmount",
+			"lay-fea",
+			"images",
+			"c",
+			"lay-about",
+			"lay-overlay",
+			"images",
+			"lay-about",
+			"carousel",
+			"lay-container",
+			"box-shadow",
+			"myCarousel",
+			"lay-container",
+			"restaurant-item",
+			"images",
+			"box-shadow",
+			"lay-overlay",
+			"ticket",
+			"lay-about",
+			"color",
+			"lay-container",
+			"h4",
+			"amusement",
+			"myCarousel",
+			"carouselExampleIndicators",
+			"restaurant",
+			"amusement",
+			"lazy",
+			"src",
+			"<img",
+			"rgba(5,55,255",
+			"rgba(5,55,2",
+			"opacity",
+			"opacity:0.8",
+			"opacity:0.6",
+			"col",
+			"fixed",
+			"extra",
+			"opa",
+			"opacity",
+			"auto",
+			"extra-heade",
+			".extra-header",
+			"navbar_fixed",
+			"a",
+			"display: block",
+			"<br>",
+			"float",
+			"container-fluid",
+			".dropdown-header",
+			"dropdown-header",
+			"hover",
+			"dropdown-menu",
+			"hover",
+			"caret",
+			"hover",
+			"#header-bottom",
+			"aa-card-notify",
+			"aa-cart-title",
+			".aa-cartbox",
+			"aa-cartbox",
+			"aa-cart",
+			"@media",
+			"aa-search-box",
+			"aa-header-bottom",
+			"login-modal",
+			"outline",
+			"xulydangki",
+			"comments",
+			"carousel",
+			"stat",
+			");\n",
+			"container",
+			"gray",
+			"*",
+			"doi2",
+			"float:left",
+			"{\n",
+			"3b5998",
+			"fff",
+			"200px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<button class=\"btn add-ticket\">ADD TO MY VISIT</button>",
+			"<button class=\"btn\" class=\"add-ticket\">ADD TO MY VISIT</button>",
+			"<button class=\"btn\" id=\"add-ticket\">ADD TO MY VISIT</button>",
+			"packetIndex",
+			"img",
+			"carousel",
+			"lay-container",
+			"img",
+			"restaurant",
+			"carousel",
+			"amusement-item",
+			"restaurant",
+			"data-src",
+			"<img class='lazy'",
+			"#first-header",
+			"",
+			"#header-mid"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "eProject.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

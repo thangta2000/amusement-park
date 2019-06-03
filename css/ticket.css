@@ -1,0 +1,41 @@
+#ticket {
+  width: 180px;
+  height: 80px;
+  position: fixed;
+  background: red;
+  top:200px;
+  right:-100px;
+  transition: 1s;
+}
+
+#ticket:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 40px solid transparent;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+}
+#ticket:before {
+  content: "";
+  position: absolute;
+  left: -40px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 40px solid red;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+}
+#ticket p{
+  padding-top: 23px;
+  padding-left:10px;
+  font-size: 20px;
+  color:white;
+}
+#ticket:hover{
+  right:0;
+}

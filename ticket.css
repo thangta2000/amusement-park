@@ -1,0 +1,91 @@
+.lay-heading .heading {
+  font-size: 50px;
+  font-style: italic;
+  position: relative;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .lay-heading .heading {
+    font-size: 30px;
+  }
+}
+.lay-heading .heading:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  left: 50%;
+  background: #fb6e14;
+  margin-left: -20px;
+}
+.lay-heading .sub-heading {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .lay-heading .sub-heading {
+    font-size: 18px;
+  }
+}
+#lay-contact {
+  padding: 7em 0;
+}
+@media screen and (max-width: 768px) {
+  #lay-contact {
+    padding: 5em 0;
+  }
+}
+#lay-contact h3 {
+  margin-bottom: 30px;
+  font-style: italic;
+}
+@media screen and (max-width: 768px) {
+  #lay-contact {
+    padding: 5em 0;
+  }
+}
+#lay-contact .lay-heading .heading {
+  position: relative;
+  padding-top: 30px !important;
+}
+#lay-contact .lay-heading .heading:before, #lay-contact .lay-heading .heading::before {
+  height: 61px;
+  width: 61px;
+  position: absolute;
+  content: "";
+  background: url(../images/contact.png) no-repeat;
+  top: 0;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -24px;
+}
+#lay-contact .lay-heading .sub-heading {
+  color: #a99c92;
+}
+#lay-contact .lay-social {
+  padding: 0;
+  margin: 0;
+}
+#lay-contact .lay-social li {
+  padding: 0;
+  margin: 0;
+}
+#lay-contact .lay-contact-info {
+  padding: 0;
+  margin: 0 0 1.5em 0;
+}
+#lay-contact .lay-contact-info li {
+  position: relative;
+  padding: 0;
+  margin: 0 0 1.5em 0;
+  padding-left: 50px;
+  list-style: none;
+}
+#lay-contact .lay-contact-info li i {
+  position: absolute;
+  top: .4em;
+  left: 0;
+}

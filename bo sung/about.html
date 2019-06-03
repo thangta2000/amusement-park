@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<header class="header" >
+	<nav class="navbar navbar-expand-lg">
+		<div class="brand">	
+			<a href="#" class="navbar-brand "><img src="https://via.placeholder.com/150x40"></a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-header">
+					<i class="fas fa-bars"></i>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="collapse-header">
+			<ul class="navbar-nav">
+				<div id="first-header">
+					<input type="text" placeholder="Search...">
+					<a href="#"><i class="fas fa-search"></i></a>
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-tripadvisor"></i></a>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sign-up">Sign Up</button>
+					<div class="modal fade" id="sign-up" tabindex="-1" >
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title">Sign Up</h4>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      									<span aria-hidden="true">&times;</span>
+    								</button>
+								</div>
+								<div class="modal-body">
+									<form>
+									  <div class="form-group">
+									    <label >Email address</label>
+									    <input type="email" class="form-control" id="sign-up-email" placeholder="Your email">
+									  </div>
+									  <div class="form-group">
+									    <label >Username</label>
+									    <input type="text" class="form-control" id="sign-up-username" placeholder="Username">
+									  </div>
+									  <div class="form-group">
+									    <label>Password</label>
+									    <input type="password" class="form-control" id="sign-up-password" placeholder="Password">
+									  </div>
+									  <div class="form-group">
+									    <label>Type your password again</label>
+									    <input type="password" class="form-control" id="sign-up-password-second" placeholder="Repeat your password">
+									  </div>
+									  <button type="submit" class="btn btn-primary">Sign Up</button>
+									  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sign-in">Sign In</button>
+					<div class="modal fade" id="sign-in" tabindex="-1" >
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title">Sign In</h4>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      									<span aria-hidden="true">&times;</span>
+    								</button>
+								</div>
+								<div class="modal-body">
+									<form>
+									  <div class="form-group">
+									    <label >Username</label>
+									    <input type="text" class="form-control" id="sign-up-username" placeholder="Username">
+									  </div>
+									  <div class="form-group">
+									    <label>Password</label>
+									    <input type="password" class="form-control" id="sign-up-password" placeholder="Password">
+									  </div>
+									  <button type="submit" class="btn btn-primary">Sign In</button>
+									  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="second-header">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link ">HOME</a>
+					</li>
+					<li class="nav-item dropdown-one">
+						<a href="#" class="nav-link">THE PARK</a>
+						<div class="dropdown-menu-one">
+							<div class="container">
+								<div class="row">
+									<div class="col-6">
+										<a href="#"><h2>THE PARK</h2></a>
+									</div>
+									<div class="col-3">
+										<a href="amusement.html"><h3>Amusement</h3></a>
+									</div>
+									<div class="col-3">
+										<a href="restaurants.html"><h3>Restaurants</h3></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">GALLERY</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">TICKETS AND PRICE</a>
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">ABOUT US</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">CONTACT</a>
+					</li>
+				</div>
+			</ul>
+		</div>			
+	</nav>
+</header>
+<div class="container">
+	<div class="row ">
+		<div class="col-xl-4 col-lg-5 col-12 banner">
+			<div class="banner-container" id="banner-1">
+				<h2>ABOUT US</h2>
+				<img src="img/about_us.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipi allltscing elit. Donec pulvinar rabitur vel semper lectus. Fusce blandit felis quis turpis accumsan consequat. In eu arcu eget allerlorem posuere sapien id eniviverra, sit amet condimentum lorem volutpat. Mauris fermentum tortor.</p>
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-7 col-12 banner">
+			<div class="banner-container" id="banner-2">
+				<h2>LATEST NEWS</h2>
+				<time>22<span>JUNE</span></time>
+				<div class="extra-wrap">
+					<h3>Fusce blandit lectus at </h3>
+					<p>Praesent egestas eleifend est, eget tristique placerat ullamcorper. Proin velit est, tristiue eu, mollis ac ligula liquam ultricies.</p>
+				</div>
+				<time>22<span>JUNE</span></time>
+				<div class="extra-wrap">
+					<h3>Fusce blandit lectus at </h3>
+					<p>Praesent egestas eleifend est, eget tristique placerat ullamcorper. Proin velit est, tristiue eu, mollis ac ligula liquam ultricies.</p>
+				</div>
+				<time>22<span>JUNE</span></time>
+				<div class="extra-wrap">
+					<h3>Fusce blandit lectus at </h3>
+					<p>Praesent egestas eleifend est, eget tristique placerat ullamcorper. Proin velit est, tristiue eu, mollis ac ligula liquam ultricies.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-4 col-12 banner">
+			<div class="banner-container" id="banner-3">
+				<h2>OUR ADVANTAGES</h2>
+				<p>Praesent egestas eleifend est, eget tristique quam. Nulla facilisi. Integer placerat nisi et pharetra fermentum. Etiam hendrerit placerat ullamcorper. Proin velit est, tristique tempus eu, mollis ac ligula.</p>
+				<ul>
+					<li>
+						<a href="#">
+							<i class="fas fa-arrow-right"></i>
+							Fermentuma lorem ipsum dolor
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fas fa-arrow-right"></i>
+							Fermentuma lorem ipsum dolor
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fas fa-arrow-right"></i>
+							Fermentuma lorem ipsum dolor
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fas fa-arrow-right"></i>
+							Fermentuma lorem ipsum dolor
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fas fa-arrow-right"></i>
+							Fermentuma lorem ipsum dolor
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fas fa-arrow-right"></i>
+							Fermentuma lorem ipsum dolor
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="team-member">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h2>WORK TEAM</h2>
+				<div class="row">
+					<div class="col-lg-3 col-6">
+						<figure>
+							<img src="img/member1.jpg">
+							<h5>EVA ADAMSON</h5>
+							<p>Praesent egestas eleifend est, eget tristique placerat ullamcorper. Proin velit est, tristi.</p>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-6">
+						<figure>
+							<img src="img/member2.jpg">
+							<h5>EVA ADAMSON</h5>
+							<p>Praesent egestas eleifend est, eget tristique placerat ullamcorper. Proin velit est, tristi.</p>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-6">
+						<figure>
+							<img src="img/member3.jpg">
+							<h5>EVA ADAMSON</h5>
+							<p>Praesent egestas eleifend est, eget tristique placerat ullamcorper. Proin velit est, tristi.</p>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-6">
+						<figure>
+							<img src="img/member4.jpg">
+							<h5>EVA ADAMSON</h5>
+							<p>Praesent egestas eleifend est, eget tristique placerat ullamcorper. Proin velit est, tristi.</p>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="advantage">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-12">
+				<div class="advantage-one">
+					<h3><strong>OUR RULES</strong></h3>
+					<span>1</span>
+					<div class="extra-wrap">
+						<strong>FUSCE BLANDIT LECTUS AT</strong>
+						<p>Praesent egestas eleifend est, eget tristique placerat ullamcorper. Proin velit est, tristiue eu, mollis ac ligula liquam ultricies.</p>
+					</div>
+					<span>2</span>
+					<div class="extra-wrap">
+						<strong>FUSCE BLANDIT LECTUS AT</strong>
+						<p>Praesent egestas eleifend est, eget tristique placerat ullamcorper. Proin velit est, tristiue eu, mollis ac ligula liquam ultricies.</p>
+					</div>
+					<span>3</span>
+					<div class="extra-wrap">
+						<strong>FUSCE BLANDIT LECTUS AT</strong>
+						<p>Praesent egestas eleifend est, eget tristique placerat ullamcorper. Proin velit est, tristiue eu, mollis ac ligula liquam ultricies.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-12">
+				<div class="advantage-two">
+					<h3><strong>WHY CHOOSE US</strong></h3>
+					<p>Aliquam eleifend vel velit sit amet interdum. Nullam id elit accumsan lorem adipiscing gravida ac nec neque. Maecenas iaculis enim massa, vel tincidunt nisi laoreet a. Suspendisse commodo ipsum non inte.</p>
+					<ul>
+						<li>
+							<a href="#">
+								<i class="fas fa-arrow-right"></i>
+								Fermentuma lorem ipsum dolor
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fas fa-arrow-right"></i>
+								Fermentuma lorem ipsum dolor
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fas fa-arrow-right"></i>
+								Fermentuma lorem ipsum dolor
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fas fa-arrow-right"></i>
+								Fermentuma lorem ipsum dolor
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fas fa-arrow-right"></i>
+								Fermentuma lorem ipsum dolor
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fas fa-arrow-right"></i>
+								Fermentuma lorem ipsum dolor
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fas fa-arrow-right"></i>
+								Fermentuma lorem ipsum dolor
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-4 col-12">
+				<div class="advantage-three">
+					<h3><strong>TESTIMONIALS</strong></h3>
+					<span><img src="img/quote.png"></span>
+					<div class="extra-wrap">
+						<p>Aliquam eleifend vel velit sit amet interdum. Nullam id elit accumsan lorem adipiscing gravida ac nec neque. Maecenas iaculis enim massa, vel tincidunt nisi laoreet a. Suspendisse commodo ipsum non rdum cursus. Maecenas rutrum facilisis enim, at feugiat est. Vestibulum.</p>
+						<strong>MARIA BROOKS, USA</strong>
+					</div>
+					<span><img src="img/quote.png"></span>
+					<div class="extra-wrap">
+						<p>Aliquam eleifend vel velit sit amet interdum. Nullam id elit accumsan lorem adipiscing gravida ac nec neque. Maecenas iaculis enim massa, vel tincidunt nisi laoreet a. Suspendisse commodo ipsum non rdum cursus. Maecenas rutrum facilisis enim, at feugiat est. Vestibulum.</p>
+						<strong>MARIA BROOKS, USA</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<br><br><br>
+</body>
+</html>

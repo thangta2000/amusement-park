@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amusement Park</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<div id="lay-container">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+	 	<div class="carousel-inner">
+		    <div class="carousel-item active">
+		    	<img class="d-block w-100" src="./img/slide_1.jpg" >
+		    	<div class="carousel-caption">
+					<h1 class="display-2">Amusement Park</h1>
+					<h3>The Best Park In The World</h3>
+		      	</div>
+		    </div>
+		    <div class="carousel-item">
+		      	<img class="d-block w-100" src="./img/slide_2.jpg" >
+		      	<div class="carousel-caption">
+					<h1 class="display-2">Amusement Park</h1>
+					<h3>The Best Park In The World</h3>
+		      	</div>
+		    </div>
+		    <div class="carousel-item">
+		      	<img class="d-block w-100" src="./img/slide_3.jpg" >
+		      	<div class="carousel-caption">
+					<h1 class="display-2">Amusement Park</h1>
+					<h3>The Best Park In The World</h3>
+		      	</div>
+		    </div>
+		</div>
+		 <div class="carousel-indicator">
+		  	<span class="carousel-indicator-item-1">
+		  		<i class="fas fa-circle" class="active"></i>
+		  	</span>
+		  	<span class="carousel-indicator-item-2">
+		  		<i class="fas fa-circle" ></i>
+		  	</span>
+		  	<span class="carousel-indicator-item-3">
+		  		<i class="fas fa-circle" ></i>
+		  	</span>
+	  	</div>
+  	</div>
+</div>	
+<div class="js-sticky">
+	<div class="lay-main-nav">
+		<nav class="container-fluid navbar navbar-expand-xl">
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-header">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="collapse-header">
+				<div class="lay-menu-1">
+					<a class="navbar-link active" href="index.html" data-nav-section="home">Home</a>
+					<a href="amusement.html" data-nav-section="events">Amusement</a>
+					<a href="restaurants.html" data-nav-section="menu">Restaurant</a>
+					<a href="ticket.html" data-nav-section="ticket">Ticket</a>
+				</div>
+				<div class="lay-logo">
+					<a href="index.html">Merciano</a>
+				</div>
+				<div class="lay-menu-2">
+					<a href="contact.html" data-nav-section="contact">Contact</a>
+					<a href="about.html" data-nav-section="about">About Us</a>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sign-up">Sign Up</button>
+					<div class="modal fade" id="sign-up" >
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title">Sign Up</h4>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	  									<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form>
+									  <div class="form-group">
+									    <label >Email address</label>
+									    <input type="email" class="form-control" id="sign-up-email" placeholder="Your email">
+									  </div>
+									  <div class="form-group">
+									    <label >Username</label>
+									    <input type="text" class="form-control" id="sign-up-username" placeholder="Username">
+									  </div>
+									  <div class="form-group">
+									    <label>Password</label>
+									    <input type="password" class="form-control" id="sign-up-password" placeholder="Password">
+									  </div>
+									  <div class="form-group">
+									    <label>Type your password again</label>
+									    <input type="password" class="form-control" id="sign-up-password-second" placeholder="Repeat your password">
+									  </div>
+									  <button type="submit" class="btn btn-primary">Sign Up</button>
+									  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sign-in">Sign In</button>
+					<div class="modal fade" id="sign-in" >
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title">Sign In</h4>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	  									<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form>
+									  <div class="form-group">
+									    <label >Username</label>
+									    <input type="text" class="form-control" id="sign-up-username" placeholder="Username">
+									  </div>
+									  <div class="form-group">
+									    <label>Password</label>
+									    <input type="password" class="form-control" id="sign-up-password" placeholder="Password">
+									    <a href="#" class="forget-pw">Forget Your Password?</a>
+									  </div>
+									  <button type="submit" class="btn btn-primary">Sign In</button>
+									  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+</div>
+<div id="header"></div>
+<div id="lay-about" >
+	<div class="lay-2col lay-bg to-animate-2" style="background-image: url(img/res_img_1.jpg)"></div>
+	<div class="lay-2col lay-text">
+		<h2 class="heading to-animate">About Us</h2>
+		<p class="to-animate"><span class="firstcharacter">W</span>ith the long Fourth of July weekend coming up, I bet at least some of our _flossy readers are headed to an amusement park to celebrate with roller coasters, cotton candy and water slides. So to give you some food for thought while you're waiting to ride the Scrambler, here are a few random facts about the parks that keep us entertained..</p>
+		<p class="to-animate text-center"><a href="about.html" data-nav-section="events" class="btn btn-primary btn-outline">READ MORE</a></p>
+	</div>
+</div>
+<div id="lay-sayings">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	 	<div class="carousel-inner">
+		    <div class="carousel-item active">
+				<h3><i>&ldquo;A lot of fascinating games.&rdquo;</i></h3>
+		    </div>
+		    <div class="carousel-item">
+		    	<h3><i>&ldquo;Adventure with friends.&rdquo;</i></h3>
+		    </div>
+		    <div class="carousel-item">
+		      	<h3><i>&ldquo;Family entertainment place.&rdquo;</i></h3>
+		    </div>
+		</div>
+  	</div>
+</div>
+<div id="lay-featured">
+	<div class="container">
+		<div class="row text-center lay-heading row-padded">
+			<div class="col-12">
+				<h2 class="heading to-animate">Play Zone</h2>
+				<p class="sub-heading to-animate">A lot of fascinating games</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="lay-grid">
+				<div class="lay-v-half to-animate-2">
+					<div class="lay-v-col-2 lay-bg-img" style="background-image: url(img/res_img_1.jpg)"></div>
+					<div class="lay-v-col-2 lay-text lay-special-1 arrow-left">
+						<h2>Water pool</h2>
+						<span class="pricing"></span>
+						<p>unleash with the country's largest artificial pool</p>
+					</div>
+				</div>
+				<div class="lay-v-half">
+					<div class="lay-h-row-2 to-animate-2">
+						<div class="lay-v-col-2 lay-bg-img" style="background-image: url(img/res_img_2.jpg)"></div>
+						<div class="lay-v-col-2 lay-text arrow-left">
+							<h2>roller coaster</h2>
+							<span class="pricing"></span>
+							<p>adventure with friends from a height of 2000m</p>
+						</div>
+					</div>
+					<div class="lay-h-row-2 lay-reversed to-animate-2">
+						<div class="lay-v-col-2 lay-bg-img" style="background-image: url(img/res_img_8.jpg)"></div>
+						<div class="lay-v-col-2 lay-text arrow-right">
+							<h2>float home</h2>
+							<span class="pricing"></span>
+							<p>family entertainment place</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="lay-v-half">
+					<div class="lay-h-row-2 lay-reversed to-animate-2">
+						<div class="lay-v-col-2 lay-bg-img" style="background-image: url(img/res_img_7.jpg)"></div>
+						<div class="lay-v-col-2 lay-text arrow-right">
+							<h2>Ferris adventure</h2>
+							<span class="pricing"></span>
+							<p>Try thrilling with level 5 games</p>
+						</div>
+					</div>
+					<div class="lay-h-row-2 to-animate-2">
+						<div class="lay-v-col-2 lay-bg-img" style="background-image: url(img/res_img_6.jpg)"></div>
+						<div class="lay-v-col-2 lay-text arrow-left">
+							<h2>adventurous cable car</h2>
+							<span class="pricing"></span>
+							<p>Try feeling strong</p>
+						</div>
+					</div>
+				</div>
+				<div class="lay-v-half to-animate-2">
+					<div class="lay-v-col-2 lay-bg-img" style="background-image: url(img/res_img_3.jpg)"></div>
+					<div class="lay-v-col-2 lay-text lay-special-1 arrow-left">
+						<h2>Ferris</h2>
+						<span class="pricing"></span>
+						<p>Enjoy the view of the city above</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="lay-type" style="background-image: url(img/slide_3.jpg);" >
+	<div class="lay-overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 to-animate">
+				<div class="lay-type">
+					<h3 class="with-icon icon-1">Water park</h3>
+					<p>Enjoy relaxing moments at the hot springs</p>
+				</div>
+			</div>
+			<div class="col-md-3 to-animate">
+				<div class="lay-type">
+					<h3 class="with-icon icon-2">Park</h3>
+					<p>First-class entertainment area</p>
+				</div>
+			</div>
+			<div class="col-md-3 to-animate">
+				<div class="lay-type">
+					<h3 class="with-icon icon-3">Telepheric.</h3>
+					<p>See the spectacular natural scenery</p>
+				</div>
+			</div>
+			<div class="col-md-3 to-animate">
+				<div class="lay-type">
+					<h3 class="with-icon icon-4">Restaurant</h3>
+					<p>service experience of trendy 5-star hotels</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer id="lay-footer">
+		<div class="container">
+			<div class="row row-padded">
+				<div class="col-12 text-center">
+					<p class="to-animate">
+						&copy; 2019 eProject team. <br>
+						MERCIARDO AMUSEMENT PARK
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 text-center">
+					<ul class="lay-social">
+						<li class="to-animate-2"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+						<li class="to-animate-2"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+						<li class="to-animate-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<a href="#header" class="bookmark"><i class="fas fa-caret-square-up"></i></a>
+		</div>
+	</footer>
+
+</body>
+</html>

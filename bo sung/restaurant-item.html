@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<header class="header" >
+	<nav class="navbar navbar-expand-lg">
+		<div class="brand">	
+			<a href="#" class="navbar-brand "><img src="https://via.placeholder.com/150x40"></a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-header">
+					<i class="fas fa-bars"></i>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="collapse-header">
+			<ul class="navbar-nav">
+				<div id="first-header">
+					<input type="text" placeholder="Search...">
+					<a href="#"><i class="fas fa-search"></i></a>
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-tripadvisor"></i></a>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sign-up">Sign Up</button>
+					<div class="modal fade" id="sign-up" tabindex="-1" >
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title">Sign Up</h4>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      									<span aria-hidden="true">&times;</span>
+    								</button>
+								</div>
+								<div class="modal-body">
+									<form>
+									  <div class="form-group">
+									    <label >Email address</label>
+									    <input type="email" class="form-control" id="sign-up-email" placeholder="Your email">
+									  </div>
+									  <div class="form-group">
+									    <label >Username</label>
+									    <input type="text" class="form-control" id="sign-up-username" placeholder="Username">
+									  </div>
+									  <div class="form-group">
+									    <label>Password</label>
+									    <input type="password" class="form-control" id="sign-up-password" placeholder="Password">
+									  </div>
+									  <div class="form-group">
+									    <label>Type your password again</label>
+									    <input type="password" class="form-control" id="sign-up-password-second" placeholder="Repeat your password">
+									  </div>
+									  <button type="submit" class="btn btn-primary">Sign Up</button>
+									  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sign-in">Sign In</button>
+					<div class="modal fade" id="sign-in" tabindex="-1" >
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title">Sign In</h4>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      									<span aria-hidden="true">&times;</span>
+    								</button>
+								</div>
+								<div class="modal-body">
+									<form>
+									  <div class="form-group">
+									    <label >Username</label>
+									    <input type="text" class="form-control" id="sign-up-username" placeholder="Username">
+									  </div>
+									  <div class="form-group">
+									    <label>Password</label>
+									    <input type="password" class="form-control" id="sign-up-password" placeholder="Password">
+									  </div>
+									  <button type="submit" class="btn btn-primary">Sign In</button>
+									  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="second-header">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link ">HOME</a>
+					</li>
+					<li class="nav-item dropdown-one">
+						<a href="#" class="nav-link">THE PARK</a>
+						<div class="dropdown-menu-one">
+							<div class="container">
+								<div class="row">
+									<div class="col-6">
+										<a href="#"><h2>THE PARK</h2></a>
+									</div>
+									<div class="col-3">
+										<a href="amusement.html"><h3>Amusement</h3></a>
+									</div>
+									<div class="col-3">
+										<a href="restaurants.html"><h3>Restaurants</h3></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">GALLERY</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">TICKETS AND PRICE</a>
+					</li>
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">ABOUT US</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">CONTACT</a>
+					</li>
+				</div>
+			</ul>
+		</div>			
+	</nav>
+</header>
+<div class="restaurant-item-title">
+	<i class="fas fa-star star-one"></i>
+	<i class="fas fa-star star-two"></i>
+	<i class="fas fa-star star-three"></i>
+	<h1>Adventurers Club</h1>
+	<i class="fas fa-star star-three"></i>
+	<i class="fas fa-star star-two"></i>
+	<i class="fas fa-star star-one"></i>	
+</div>
+<div class="restaurant-item">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 col-12">
+				<div id="carousel" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img class="d-block w-100" src="img/item4.jpg" >
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="img/item5.jpg" >
+				    </div>
+				  </div>
+				  <div class="carousel-indicator">
+				  	<span class="carousel-indicator-item-1">
+				  		<i class="fas fa-circle" class="active"></i>
+				  	</span>
+				  	<span class="carousel-indicator-item-2">
+				  		<i class="fas fa-circle" ></i>
+				  	</span>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-5 col-12 restaurant-item-text">
+				<p>Adventurers Club is in Plaça Tibidabo in front of the main entrance, serving a wide range of salads, tapas and sandwiches. It has a terrace, indoor dining room with air conditioning and Wi-Fi.</p>
+				<p><strong>Opening times:</strong> from 10am until the Park and/or Panorcamic Area closes.</p><br>
+				<p>Also, from 10.30 am to 11.30 am, enjoy its breakfast offer for only €3,50: toasted cheese and ham sandwich + coffee or coffee with milk (only available when the restaurant park opens).</p>
+				<p>Nivell 6</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
