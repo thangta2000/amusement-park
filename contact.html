@@ -12,39 +12,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-<header class="header" >
-	<nav class="navbar navbar-expand-lg">
-		<div class="brand">	
-			<a href="#" class="navbar-brand "><img src="https://via.placeholder.com/150x40"></a>
+<div class="js-sticky">
+	<div class="lay-main-nav">
+		<nav class="container-fluid navbar navbar-expand-xl">
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-header">
-					<i class="fas fa-bars"></i>
+				<i class="fas fa-bars"></i>
 			</button>
-		</div>
-		<div class="collapse navbar-collapse" id="collapse-header">
-			<ul class="navbar-nav">
-				<div id="first-header">
-					<input type="text" placeholder="Search...">
-					<a href="#"><i class="fas fa-search"></i></a>
-					<a href="#"><i class="fab fa-facebook"></i></a>
-					<a href="#"><i class="fab fa-twitter"></i></a>
-					<a href="#"><i class="fab fa-instagram"></i></a>
-					<a href="#"><i class="fab fa-youtube"></i></a>
-					<a href="#"><i class="fab fa-tripadvisor"></i></a>
+			<div class="collapse navbar-collapse" id="collapse-header">
+				<div class="lay-menu-1">
+					<a class="navbar-link" href="index.html" data-nav-section="home">Home</a>
+					<a href="amusement.html" data-nav-section="events">Amusement</a>
+					<a href="restaurants.html" data-nav-section="menu">Restaurant</a>
+					<a href="ticket.html" data-nav-section="ticket">Ticket</a>
+				</div>
+				<div class="lay-logo">
+					<a href="index.html">Merciano</a>
+				</div>
+				<div class="lay-menu-2">
+					<a href="contact.html" data-nav-section="contact" class="active">Contact</a>
+					<a href="about.html" data-nav-section="about">About Us</a>
 					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sign-up">Sign Up</button>
-					<div class="modal fade" id="sign-up" tabindex="-1" >
+					<div class="modal fade" id="sign-up" >
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
 									<h4 class="modal-title">Sign Up</h4>
 							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      									<span aria-hidden="true">&times;</span>
-    								</button>
+	  									<span aria-hidden="true">&times;</span>
+									</button>
 								</div>
 								<div class="modal-body">
 									<form>
 									  <div class="form-group">
 									    <label >Email address</label>
 									    <input type="email" class="form-control" id="sign-up-email" placeholder="Your email">
+									    <div class="errorMes">
+									    	<p class="errorEmail">Email is not invalid  Email is not invalid Email is not invalid abc abc abca aba</p>
+									    </div>
 									  </div>
 									  <div class="form-group">
 									    <label >Username</label>
@@ -64,16 +68,16 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div>	
 					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sign-in">Sign In</button>
-					<div class="modal fade" id="sign-in" tabindex="-1" >
+					<div class="modal fade" id="sign-in" >
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
 									<h4 class="modal-title">Sign In</h4>
 							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      									<span aria-hidden="true">&times;</span>
-    								</button>
+	  									<span aria-hidden="true">&times;</span>
+									</button>
 								</div>
 								<div class="modal-body">
 									<form>
@@ -84,6 +88,7 @@
 									  <div class="form-group">
 									    <label>Password</label>
 									    <input type="password" class="form-control" id="sign-up-password" placeholder="Password">
+									    <a href="#" class="forget-pw">Forget Your Password?</a>
 									  </div>
 									  <button type="submit" class="btn btn-primary">Sign In</button>
 									  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -93,45 +98,10 @@
 						</div>
 					</div>
 				</div>
-				<div id="second-header">
-					<li class="nav-item">
-						<a href="index.html" class="nav-link ">HOME</a>
-					</li>
-					<li class="nav-item dropdown-one">
-						<a href="#" class="nav-link">THE PARK</a>
-						<div class="dropdown-menu-one">
-							<div class="container">
-								<div class="row">
-									<div class="col-6">
-										<a href="#"><h2>THE PARK</h2></a>
-									</div>
-									<div class="col-3">
-										<a href="amusement.html"><h3>Amusement</h3></a>
-									</div>
-									<div class="col-3">
-										<a href="restaurants.html"><h3>Restaurants</h3></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">GALLERY</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">TICKETS AND PRICE</a>
-					</li>
-					<li class="nav-item">
-						<a href="about.html" class="nav-link">ABOUT US</a>
-					</li>
-					<li class="nav-item">
-						<a href="contact.html" class="nav-link">CONTACT</a>
-					</li>
-				</div>
-			</ul>
-		</div>			
-	</nav>
-</header>
+			</div>
+		</nav>
+	</div>
+</div>
 <div class="middle">
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.512788627209!2d105.84218861494861!3d21.01215849372072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab8ee6df247f%3A0xe6183d662696d2e9!2sUnion+Park!5e0!3m2!1sen!2s!4v1555921337774!5m2!1sen!2s" width="600" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
 	<div class="container">

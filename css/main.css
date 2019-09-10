@@ -1016,7 +1016,7 @@ body{
 /*-------------------------------------------This is AMUSEMENT container---------------------------------*/
 .amusement{
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 180px;
 }
 .amusement .search-bar input{
   margin-bottom: 20px;
@@ -1488,16 +1488,18 @@ body{
   text-decoration: none;
   opacity: 0.6;
 }
-#lay-footer .bookmark {
-  font-size: 50px ;
-  position: absolute;
-  right: 10%;
-  bottom: 20%;
-  color: #4caf50;
-  transition: 0.5s;
+.bookmark{
+    font-size: 60px ;
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
+    color: #4caf50;
+    transition: 0.6s;
+    z-index: 10000;
 }
-#lay-footer .bookmark:hover{
-  opacity: 0.6;
+.bookmark:hover{
+  opacity: 0.7;
+  color: #4caf50;
 }
 /*-----------------------------------------End of 2nd FOOTER----------------------------------------------*/
 
